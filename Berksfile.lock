@@ -1,0 +1,7 @@
+DEPENDENCIES
+  chefcookbook
+    path: .
+    metadata: true
+
+GRAPH
+  chefcookbook (0.1.0)
