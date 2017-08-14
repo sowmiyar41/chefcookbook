@@ -28,7 +28,7 @@ directory node['git']['dir'] do
   action :create
 end
 
-#Check the chef environment and clone from git
+#Check the chef environment and clone from git repo
 if node.chef_environment == "qa"
   git  node['git']['dir'] do
   repository node['git']['url']
